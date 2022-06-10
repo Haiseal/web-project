@@ -208,6 +208,10 @@ header{
 
 
 /* order */
+.order__content{
+    padding-left: 200px;
+    padding-right: 300px;
+}
 .order__pic{
     height: 200px;
     width: 200px;
