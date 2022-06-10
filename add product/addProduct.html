@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./addProduct.css">
+    <!-- font-awesome 6.1.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrap">
+                <div class="logo-search">
+                    <div class="logo_menu">
+                        <a href="#">
+                            <img src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png"
+                                alt="" />
+                        </a>
+                    </div>
+                    <div class="formSearch">
+                        <input class="header_search" data-view-id="" type="text" placeholder="Tìm kiếm sản phẩm ... "
+                            value="" />
+                        <button class="header__btn" data-view-id="">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>Tìm Kiếm</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="header__user">
+                    <div class="user__account__container">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="account__content">
+                            <span>Tài Khoản</span>
+                            <span class="account-label">
+                                <span>Đông Hải</span>
+                                <!--   dùng js để đổi tên    -->
+                                <i class="fa-solid fa-caret-down"></i>
+                            </span>
+                        </span>
+                        <div class="user__dropdown">
+                            <a href="#">
+                                <p>Đơn hàng của tôi</p>
+                            </a>
+                            <a href="#">
+                                <p>Quản lý đổi Trả</p>
+                            </a><a href="#">
+                                <p>Thông báo của tôi</p>
+                            </a><a href="#">
+                                <p>Tài khoản của tôi</p>
+                            </a><a href="#">
+                                <p>Nhận xét sản phẩm đã mua</p>
+                            </a><a href="#">
+                                <p>thoát tài khoản</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__cartItem">
+                        <a href="#">
+                            <!--đến trang vỏ hàng-->
+                            <div class="cart-content">
+                                <div class="cart-wrap">
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                                <span>Giỏ Hàng</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="add__product">
+        <div class="container">
+            <div class="add__content d-flex mb-3 mt-5">
+                <div class="add__product__pic pr-0 p-3">
+                    <div class="pic__add">
+                        <a href="">
+                            <img src="./img/Opera Hình chụp_2022-06-10_103043_support.sapo.vn.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="add__text p-3">
+                    <div class="add__name">
+                        <h4 class="title">Tên sản phẩn</h4>
+                        <input class='mb-3' type="text" placeholder="tên sản phẩm">
+                    </div>
+
+                    <div class="add__price">
+                        <h4 class="title">giá tiền sản phẩn</h4>
+                        <input class='mb-3' type="text" placeholder="giá tiền sản phẩm">
+                    </div>
+
+                    <div class="add__idProduct">
+                        <h4 class="title">mã sản phẩm</h4>
+                        <input class='mb-3' type="text" placeholder="mã sản phẩm">
+                    </div>
+                    <button class="btn btn-primary"> thêm sản phẩm</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
